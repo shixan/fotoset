@@ -136,6 +136,12 @@ h2 {
 	background-color: #794f45;
 	padding: 0px 0px 85% 0px;
 	position: relative;
+	transition: all 0.8s ease 0s;
+	transform: scale3d(1, 1, 1);
+}
+.gallery__item:hover {
+	z-index: 2;
+	transform: scale3d(2, 2, 5);
 }
 .gallery__item img {
 	width: 100%;
